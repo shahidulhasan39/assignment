@@ -1,0 +1,74 @@
+
+/* Css Reset */
+html,body,div,span,applet,object,iframe,h1,h2,h3,h4,h5,h6,
+p,blockquote,pre,a,abbr,acronym,address,big,cite,code,del,
+dfn,em,font,img,ins,kbd,q,s,samp,small,strike,strong,sub,
+tt,var,b,u,i,center,dl,dt,dd,ol,ul,li,fieldset,form,
+label,legend,table,caption,tbody,tfoot,thead,tr,th,td {
+    margin:0;
+    padding:0;
+    border:0;
+    outline:0;
+    font-size:100%;
+    vertical-align:baseline;
+}
+body {
+    background:#fff;
+    color:#000;
+    font-size: 18px;
+    padding:0;
+    margin:0;
+    font-family: 'Quicksand', sans-serif;
+    font-weight: 400;
+    font-style: normal;
+}
+ul,ol { list-style:none; }
+img,fieldset { border:none; }
+a {text-decoration:none;}
+a:hover { text-decoration:none; }
+article,aside,details,figcaption,figure,footer,
+header,hgroup,main,nav,section,summary { display: block; }
+figure { margin:0; padding:0; }
+embed, iframe, object, video { max-width: 100%; }
+input, textarea { -webkit-appearance: none; -webkit-border-radius: 0; }
+html { -webkit-text-size-adjust: 100%; -ms-text-size-adjust: 100%; }
+img { max-width: 100%; height: auto; display: block; }
+a {
+    -webkit-transition: all .5s ease-out; -moz-transition: all .5s ease-out; -ms-transition: all .5s ease-out; -o-transition: all .5s ease-out; transition: all .5s ease-out;
+}
+*, *:before, *:after { -webkit-box-sizing: border-box; -moz-box-sizing: border-box; -ms-box-sizing: border-box; -o-box-sizing: border-box; box-sizing: border-box; }
+/*----------------------*/
+/*     Page structure   */
+/*----------------------*/
+#wrapper {
+    overflow:hidden;
+}
+.container {
+    max-width: 100%;
+    padding: 0 15px;
+}
+.center-content {
+    max-width: 1200px;
+    margin: 0 auto;
+}
+.calculator-area {}
+.calculator-area h1 {
+    font-size: 28px;
+    font-weight: bold;
+}
+.calculator-area h3 {
+    font-size: 24px;
+    color: blue;
+}
+.calculator-area h4 {
+    font-size: 20px;
+    color: blue;
+
+}
+.calculator-area input {
+    border: 1px solid #000;
+    outline: 0;
+}
+.calculator-area .mtl-frnd {
+    color: #000;
+}
